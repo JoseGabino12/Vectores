@@ -1,0 +1,153 @@
+body{
+    background-color: wheat;
+  }
+
+  input, label {
+      display: block;
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    label {
+      margin-top: 10px;
+    }
+    
+    input {
+      height: 30px;
+      padding: 5px;
+      outline: none;
+      border-style: none;
+      text-decoration: none;
+      border-radius: 10px;
+      margin-top: 5px;
+      font-size: 15px;
+      color: #42b883
+    }
+    
+    input[type=button] {
+      color: white;
+      margin: 5px;
+      background-color: #ff7e67;
+    
+    }
+    input[type=button]:hover {
+      cursor: pointer;
+      border: 1px solid #c93838;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+    
+    input[type=button]:active {
+      cursor: pointer;
+      color: white;
+      background-color: #c93838;
+      box-shadow: none;
+    }
+    
+    #resultado {
+      color: white;
+      background-color: #35495e;
+    }
+    
+    .container {
+      background-color: #42b883;
+      color: #FFF;
+      padding: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      height: 30%;
+      overflow: auto;
+    }
+
+    .containerTitulo {
+      background-color: #42b883;
+      color: #FFF;
+      margin: 30px;
+      text-align: center;
+      margin-left: 0px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 100%;
+      display: inline-block;
+    }
+
+    .DiseñoSelect{
+      color: white;
+      margin: 5px;
+      background-color: #ff7e67;
+      width: 100px;
+      height: 30px;
+      border-radius: 20px;
+    }
+    .panel {
+      margin-top: 10px;
+    }
+    
+    .column {
+      float: left;
+      width: 45%;
+      padding: 0 10px;
+    }
+    
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    .inline{
+      display: inline-block;
+    }
+  
+    .Adivina{
+      height: 30px;
+      padding: 5px;
+      outline: none;
+      border-style: none;
+      text-decoration: none;
+      border-radius: 10px;
+      margin-top: 5px;
+      font-size: 15px;
+      color: #42b883;
+      width: 100px;
+    }
+
+
+    table {
+      border-spacing: 0;
+    }
+    
+    
+    th, td {
+      padding: 10px 10px;
+      border-bottom: 1px solid #212226;;
+    }
+    /*------------------------------------
+     *  Container
+     */
+    
+     .dark {
+       background-color: #f8f8f8
+     }
+    
+     .left {
+       width: 50%;
+       float: left;
+
+     }
+    
+     .right {
+       width: 43%;
+       float: right;
+    }
+    
+    .border {
+      border-right: 2px solid   #fff;
+    }
+    
+    .border-dark {
+      border-right: 2px solid  #f8f8f8
+    }
+    
+    .center {
+      text-align: center;
+    }
